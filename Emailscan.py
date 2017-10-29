@@ -147,7 +147,7 @@ def banner():
 
 def main():
     banner()
-    parser = argparse.ArgumentParser(description='Example: python {} host username/userlistfile [-ssl 1]'.format(sys.argv[0]))
+    parser = argparse.ArgumentParser(description='Example: python {} host -u username -p pop3 -ssl 1'.format(sys.argv[0]))
     parser.add_argument('host', help=u'email.baidu.com')
     parser.add_argument('-u', dest='uname', help=u'用户名或用户名文件')
     parser.add_argument('-p', dest='protocol', choices=['pop3','smtp','imap'], help=u'待爆破邮箱协议')
