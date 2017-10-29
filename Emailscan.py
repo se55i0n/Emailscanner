@@ -6,7 +6,6 @@
 import os
 import sys
 import time
-import queue
 import poplib
 import smtplib
 import imaplib
