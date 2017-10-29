@@ -123,7 +123,6 @@ class EmailScanner(object):
 				self.uname = user.next()
 				self.start_thread()
 				self.pwd = []
-				self.status = False
 		except Exception as e:
 			pass
 		finally:
